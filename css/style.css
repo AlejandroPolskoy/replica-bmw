@@ -1,0 +1,237 @@
+/* GLOBAL */
+* {
+    padding: 0;
+    margin: 0;
+}
+a, a:hover, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+/* HEADER */
+.header {
+    background-image: url("../img/bmw-m4-edicion-bmw-m-50-aniversario-1-1658240369.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.menu_top {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    align-self: center;
+    align-items: center;
+    box-shadow: 0 1px 0 0 #888;
+}
+.menu_top ul {
+    
+}
+.menu_top ul li {
+    margin-right: 10px;
+}
+.menu_top2 {
+    display: flex;
+    align-items: center;
+}
+.menu_top2 div {
+    margin-left: 10px;
+}
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+#logo img {
+    width: 80px;
+    background-size: cover;
+    text-align: center;
+    background-color: white;
+}
+#logo p {
+    width: 80px;
+    font-size: 10px;
+    background-color: white;
+    padding: 8px 0;
+    text-align: center;
+}
+.menu_top3 {
+    /* align-self: flex-start; */
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+.menu_top3_p1 {
+    font-size: 40px;
+    color: white;
+}
+.menu_top3_p2 {
+    font-size: 24px;
+    color: white;
+}
+.menu_top3_btn1 {
+    background-color:cornflowerblue;
+    width: 260px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* HEADER END */
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 0 40px 0;
+}
+.after_main {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 900px;
+}
+.after_main div {
+    width: 200px;
+    height: 80px;
+    background-color: #eeeeee;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.galeria1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+.galeria__item {
+    max-width: 210px;
+}
+.galeria__item2 {
+    max-width: 440px;
+}
+.galeria__item img {
+    width: 100%;
+}
+.galeria__item2 img {
+    width: 100%;
+}
+.galeria__item-name {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.galeria__item-name-grande {
+    font-size: 30px;
+}
+.galeria__item-desc {
+    font-size: 12px;
+    margin: 4px 0;
+}
+.galeria__item-price {
+    color: grey;
+    margin-bottom: 8px;
+}
+.galeria__item-configurar {
+    font-size: 12px;
+    font-weight: bold;
+}
+.galeria__item-configurar::before {
+    content: '>';
+    margin-right: 4px;
+}
+.galeria__item-explorar {
+
+}
+.main_list1 {
+    color: grey;
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    align-items: center;
+}
+.main_list1 li {
+    padding: 8px 0;
+    display: inline-block;
+}
+.main_list1 li:last-child {
+    margin-right: 0;
+}
+.title1 {
+    color: grey;
+}
+.list_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* MAIN END */
+
+/* FOOTER */
+footer {
+    background-color: #dfdfdf;
+    padding-top: 80px;
+}
+.footer1 {
+    max-width: 900px;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-top: 1px grey solid;
+}
+.footer2 {
+    background-color: aliceblue;
+}
+.footer2 div {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.footer2_list {
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+/* FOOTER END */
+
+/* TWEAKS */
+.list_horizontal {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.list {
+    list-style-type: none;
+    font-size: 14px;
+}
+.list--selected {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid blue;
+    display: flex;
+    align-items: top;
+    align-content: top;
+}
+.center {
+    text-align: center;
+}
+.wrap-no {
+    flex-wrap: nowrap;
+}
+.overflow-x {
+    overflow-x: scroll;
+}
+.font-11 {
+    font-size: 11px;
+}
+.blue {
+    color: blue;
+}
